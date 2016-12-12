@@ -1,0 +1,5 @@
+-make sure you installed python2.7, scrapy, MySQL-python
+-you need to import 'scrapper.sql' file into your phpmyadmin 
+-you need to modify the file database_setting.py to meet your mysql server configuration
+-init the table domains with websites you want to scrapy, don't forget the http:// section and initialize the working attribute with no(small n)
+-you can run the crawler using this command (scrapy crawl external_links_scrapper)
